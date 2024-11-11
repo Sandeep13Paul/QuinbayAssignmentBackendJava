@@ -3,6 +3,7 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 Quinbay Onboard Assignment Part 1.iml
+.gitignore
 
 ### Eclipse ###
 .apt_generated
