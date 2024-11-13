@@ -68,7 +68,6 @@ public class MyList<T> {
     }
 
     // Resize array to new capacity
-    @SuppressWarnings("unchecked")
     private void resize(int newCapacity) {
         T[] newArray = (T[]) new Object[newCapacity];
         for (int i = 0; i < size; i++) {
